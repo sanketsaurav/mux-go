@@ -1,0 +1,13 @@
+version = 1
+
+exclude_patterns = [
+    "docs/**",
+    "examples/**"
+]
+
+[[analyzers]]
+name = "go"
+enabled = true
+
+  [analyzers.meta]
+  import_path = "github.com/muxinc/mux-go"
