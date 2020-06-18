@@ -10,4 +10,5 @@ name = "go"
 enabled = true
 
   [analyzers.meta]
-  import_path = "github.com/muxinc/mux-go"
+  import_paths = ["github.com/muxinc/mux-go"]
+  import_root = "github.com/muxinc/mux-go"
